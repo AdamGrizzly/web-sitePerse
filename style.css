@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+html { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.clear{
+    clear: both;
+}
+
+
+body {
+    color: #ff8b3d;
+  font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+
+}
+
+input{
+    width: 200px;
+    float: left;
+    margin-left: 35%;
+}
+iframe{
+    float: left;
+    margin-top: 2%;
+    margin-left: 25%;
+
+}
+
+div.aClassName{
+    width: 20%;
+    float:left;
+    margin-left: 10%;
+    margin-top: 3%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+}
+div.aClassName text{
+    font-size: 2em;
+    text-align: center;
+    padding: 2%;
+    color: red;
+}
+img{
+    width: 20%;
+    float:left;
+    margin-left: 10%;
+    margin-top: 3%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 1.8;
+}
